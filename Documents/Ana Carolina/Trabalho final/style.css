@@ -1,0 +1,266 @@
+header {
+    background:linear-gradient(orange,purple); ;
+}
+img {
+    margin: 0;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    right: 400px;
+}
+
+.menu {
+    margin: 0;
+    position: absolute;
+    top: 100px;
+    width: 720px;
+    left: 400px;
+    right: 400px;
+}
+
+.menu ul {
+    margin: 0;
+    background:linear-gradient(orange,purple);
+    list-style: none;
+}
+
+.menu ul li {
+    display: inline;
+    position: relative;
+
+}
+.menu ul li a {
+    padding: 10px 10px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    font-size: 25px;
+}
+.menu ul li a:hover {
+    color: yellow;
+}
+.sobre {
+    margin: 0px;
+    position: absolute;
+    top: 150px;
+    left:400px;
+    right:400px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+h1 {
+    color: yellow;
+}
+.modelos ol li img {
+    display: inline;
+    position: relative;
+}
+
+.modelos ol li img {
+    margin: 0px;
+    position: absolute;
+    top: 200px;
+    left:400px;
+    right:400px;
+    width: 300px;
+    height: 300px;
+}
+.divBusca{
+    background-color:#2F4F4F;
+    border:solid 1px;
+    border-radius:15px;
+    width:1100px;
+}
+#btnBusca {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top:55px;
+    left: 1090px;
+    right: 300px;
+}
+#txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-style:italic;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:720px;
+    position: absolute;
+    top: 50px;
+    left: 400px;
+    right: 400px;
+}
+#fig1 {
+    position: absolute;
+    top:600px;
+    left:815px;
+    right: 410px;
+    font-size: 18px;
+}
+
+#compra1 {
+    position: absolute;
+    top:650px;
+    left:500px;
+    right: 410px;
+    color: tomato;
+    cursor: pointer;
+}
+
+#compra1:hover{
+    transform:  scale(1.4);
+}
+#can1 {
+    position: absolute;
+    top:75px;
+    left:400px;
+    right: 400px;
+}
+#fig2 {
+    position: absolute;
+    top:1050px;
+    left:430px;
+    right: 410px;
+    font-size: 18px;
+}
+#compra2 {
+    position: absolute;
+    top:650px;
+    left:875px;
+    right: 500px;
+    color: tomato;
+    cursor: pointer;
+}
+
+#compra2:hover{
+    transform:  scale(1.4);
+}
+#can2 {
+    position: absolute;
+    top:75px;
+    left:25px;
+}
+
+#fig3 {
+    position: absolute;
+    top:600px;
+    left:430px;
+    right: 410px;
+    font-size: 18px;
+}
+#can3 {
+    position: absolute;
+    top:500px;
+    left:25px;
+}
+
+#compra3 {
+    position: absolute;
+    top:1120px;
+    left:500px;
+    right: 410px;
+    color: tomato;
+    cursor: pointer;
+}
+
+#compra3:hover{
+    transform:  scale(1.4);
+}
+#fig4 {
+    position: absolute;
+    top:1050px;
+    left:815px;
+    right: 410px;
+    font-size: 18px;
+}
+#can4 {
+    position: absolute;
+    top:500px;
+    left:430px;
+}
+
+#compra4 {
+    position: absolute;
+    top:1120px;
+    left:875px;
+    right: 410px;
+    color: tomato;
+    cursor: pointer;
+}
+
+#compra4:hover{
+    transform:  scale(1.4);
+}
+
+.rodape{
+    position: absolute;
+    top: 1150px;
+    width: 1500px;
+    height: 200px;
+    background: linear-gradient(orange,purple)
+}
+
+.rodape p {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: white;
+}
+
+#insta {
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left: 700px;
+    right: 700px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.pagamento {
+    padding: 20px;
+    margin-top: 200px;
+    margin-left: 400px;
+}
+
+.form-control {
+    display: inline;
+    display: inline-block;
+    position: relative;
+    width: 500px;
+    height: 25px;
+    padding-top: 15px;
+    margin-top: 20px;
+
+}
+
+.quantidade {
+    padding:10px;
+    margin-top: 20px;
+}
+
+.arte {
+    padding:10px;
+    margin-top: 20px;
+}
+
+.form-check-label {
+    left: 400px;
+    right: 500px;
+    padding: 15px;
+}
+
+#finalizar {
+    position: absolute;
+    top:590px;
+    left:500px;
+    right: 410px;
+    color: tomato;
+    cursor: pointer;
+}

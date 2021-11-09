@@ -1,0 +1,81 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Larguei no Universo</title>
+    <link rel="stylesheet" href="./style.css"/>
+</head>
+<body>
+    <header>
+       <img src="./logo.png">
+    </header>
+    <div class="menu">
+        <ul>
+            <li> <a href="./sobre.html">Sobre</a></li>
+            <li> <a href="./camisas.html">Camisas</a></li>
+            <li> <a href="./canecas.html">Canecas</a></li>
+            <li> <a href="./pedido.html">Faça seu pedido</a></li>
+        </ul>
+    </div>
+    <div id="divBusca">
+        <input type="text" id="txtBusca" placeholder="Buscar..."/>
+        <img src="./buscar.png" id="btnBusca" alt="Buscar"/>
+    </div>
+    <div class="pagamento">
+        <form>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputEmail4">Email</label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Digite seu melhor email">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputPassword4">Telefone</label>
+                <input type="tel" class="form-control" id="inputPassword4" placeholder="(71) 9 9999 9999">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputAddress">Endereço</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputCity">Cidade</label>
+                <input type="text" class="form-control" id="inputCity">
+              </div>
+              <div class="form-group col-md-4">
+                <label for="inlineFormCustomSelect">Quantidade</label>
+                <select class="quantidade" id="inlineFormCustomSelect">
+                    <option selected>Quantidade de Canecas</option>
+                    <option value="1">Um</option>
+                    <option value="2">Dois</option>
+                    <option value="3">Três</option>
+                  </select>
+                <div class="arte">
+                  <label for="inlineFormCustomSelect">Modelos</label>
+                  <select class="Estampa" id="estampas">
+                    <option selected>Escolha sua arte</option>
+                    <option value="1">Santa</option>
+                    <option value="2">Amor Colorido</option>
+                    <option value="3">Sua Arte</option>
+                  </select>
+                </div> 
+                <div class="form-group">
+                    <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                    Desejo receber novidades no whatsapp
+                    </label>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary" id="finalizar">Finalizar compra</button>
+        </form>
+
+    </div>
+</div>
+</body>
+<footer class="rodape">
+    <p>Entre em contato conosco</p>
+    <a href ="https://www.instagram.com/largueinouniverso/"><img src="./logo insta.png" id="insta" >
+</footer>
+</html>
